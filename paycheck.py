@@ -77,7 +77,7 @@ def main():
     print(f"{'Annuity Savings:':>18} {annuityContrib:>12,.2f}")
     print(f"{'Total Deduction:':>18}{'$':>6}{totalDeduction:>7,.2f}")
     print()
-    print(f"{'Total Net Pay:'}{'$':>10}{totalNet,.2f}")
+    print(f"{'Total Net Pay:'}{'$':>10}{totalNet:>7,.2f}")
     print()
     print(f"Annuity Calculations")
     print(f"{'Previous Balance:':>19}{'$':>5} {annuityBalance:>5,.2f}")
